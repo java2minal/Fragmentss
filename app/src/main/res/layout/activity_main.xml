@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#ff151d1b">
+
+    <TextView android:text="Today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/laa"
+        android:textColor="#ffff9721"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Arial"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+<Button
+
+    android:id="@+id/button1"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+    android:background="#ffd58324"
+    android:text="Classes"
+android:layout_marginBottom="20dp"
+    android:onClick="selectFrag" />
+
+
+
+<Button
+
+    android:id="@+id/button2"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+
+    android:onClick="selectFrag"
+    android:background="#ffd58324"
+
+    android:text="Events" />
+
+
+
+<fragment
+
+    android:name="com.luct.minal.fragmentss.fragmentOne"
+
+    android:id="@+id/fragment_place"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
